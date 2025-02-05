@@ -1,0 +1,4 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@custom-variant dark (&:class(.dark, .dark *));
+@custom-variant dark (&:class([data-theme=dark], [data-theme=dark] *));
